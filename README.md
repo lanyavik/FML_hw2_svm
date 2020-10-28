@@ -4,9 +4,9 @@ Code implementation are under the folder "./tools" of libsvm
 
 Order of code execution: 
 
-`python abalone_read_split.py` output> "abalone_train.txt", "abalone_test.txt"
+`python abalone_read_split.py` output> "dataset/abalone_train.txt", "dataset/abalone_test.txt"
 
-`python abalone_scale.py` output> "abalone_train_scaled.txt", "abalone_test_scale.txt"
+`python abalone_scale.py` output> "dataset/abalone_train_scaled.txt", "dataset/abalone_test_scale.txt"
 
 `python abalone_solve.py` 
 -- `task="1"` solves question C.4 & C.5
@@ -16,4 +16,4 @@ Order of code execution:
    output(optional)> "C.6d_trainerror.png" "C.6d_testerror.png"
 
 
-Preprocessed datasets and the plots are also provided for your reference.
+Preprocessed datasets are also provided for your reference.
